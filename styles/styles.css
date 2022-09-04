@@ -64,17 +64,17 @@ header nav ul li {
 }
 
 .estonia {
-  background-image: url("/yl2/images/estfood.jpg");
+  background-image: url("/images/estfood.jpg");
   background-color: #cecece;
 }
 
 .asia {
-  background-image: url("/yl2/images/asianfood.jpg");
+  background-image: url("/images/asianfood.jpg");
   background-color: #cecece;
 }
 
 .italy {
-  background-image: url("/yl2/images/itfood.jpg");
+  background-image: url("/images/itfood.jpg");
   background-color: #cecece;
 }
 
