@@ -6,18 +6,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content=""> 
         <meta name="author" content="">
-        <title>Avaleht</title>
+        <title>Ostukorv</title>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
         <!-- minu CSS -->
         <link rel="stylesheet" href="custom.css">
     </head>
     <body>
-        <!-- päis --->
+        <!-- päis -->
         <header class="py-2">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-12 my-3 text-center"><a href="index.html"><img src="logo2.png" width="50%"></a></div>              
+                    <div class="col-lg-12 my-3 text-center"><img src="logo2.png" width="50%"></div>              
                 </div>          
             </div>
         </header>
@@ -56,106 +56,107 @@
                             <a class="dropdown-item" href="#">Koorijad ja maskid</a> 
                         </div> 
                     </li> 
-                    <li class="nav-item"><a class="nav-link" href="#">Meist</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html">Meist</a></li>
                 </ul>
                 <!-- search -->
-                <form class="form-inline my-2 my-lg-0">
+                <form class="form-inline m-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Otsi" aria-label="Search">
                     <button class="btn btn-outline-white my-2 my-sm-0" type="submit"><svg class="lnr lnr-magnifier"><use xlink:href="#lnr-magnifier"></use></svg></button>
                 </form>
             </div>
             <!-- cart -->
-            <!--
-            <svg class="lnr mt-auto mr-3 my-3 lnr-cart"><use xlink:href="#lnr-cart"></use></svg>
-            -->
-            <button class="btn btn-dark my-2 my-sm-0" type="submit"><svg class="lnr lnr-cart"><use xlink:href="#lnr-cart"></use></svg></button>
+            <a href="cart.html"><button class="btn btn-dark my-2 my-sm-0" type="submit"><svg class="lnr lnr-cart"><use xlink:href="#lnr-cart"></use></svg></button></a>
         </nav> 
-        <!-- breadcrumb -->
         <section>
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb bg-white my-2 ml-2">
-                    <!-- это иконка с домиком, но у меня не получилось её выровнять нормально
-                    <li class="breadcrumb-item active" aria-current="page"><button class="btn btn-link btn-lg my-2 my-sm-0" type="submit"><svg class="lnr lnr-home"><use xlink:href="#lnr-home"></use></svg></button></li>
-                    -->
-                    <li class="breadcrumb-item active" aria-current="page">Avaleht</li>
+            <!-- breadcrumb -->
+            <nav aria-label="breadcrumb" >
+                <ol class="breadcrumb bg-white my-2">
+                    <li class="breadcrumb-item"><a href="index.html">Avaleht</a></li>
+                    <li class="breadcrumb-item active">Ostukorv</li>
                 </ol>
-            </nav>  
+            </nav>
         </section>
-        <!-- jumbotron --->
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <h1 class="display-4">Seepki on selge - puhtus on elu alus</h1>
-                <p> </p>
-            </div>
-        </div>  
-        <!-- tooted --->
+        <!-- ostukorv -->
         <section>
             <div class="container">
-                <h2 class="h mb-3">TOP</h2>
-                <div class="row"> 
-                    <div class="col-md-4 mb-4"> 
-                        <div class="card shadow-sm border-0 h-100 text-center"><a href="#"><img src="soap.png" alt="" class="card-img-top"></a> 
-                            <div class="card-body"> 
-                                <h5> <a href="#" class="text-dark">Toode 1</a></h5>
-                                <p class="text-muted card-text"> 15.99&#8364;</p> 
-                                <a role="button" href="#" class="btn btn-outline-dark">Vaata</a>
-                            </div> 
-                        </div> 
-                    </div> 
-                    <div class="col-md-4 mb-4"> 
-                        <div class="card shadow-sm border-0 h-100 text-center"><a href="#"><img src="soap.png" alt="" class="card-img-top"></a> 
-                            <div class="card-body"> 
-                                <h5> <a href="#" class="text-dark">Toode 2</a></h5>
-                                <p class="text-muted card-text"> 12.99&#8364;</p> 
-                                <a role="button" href="#" class="btn btn-outline-dark">Vaata</a>
-                            </div> 
-                        </div> 
-                    </div> 
-                    <div class="col-md-4 mb-4"> 
-                        <div class="card shadow-sm border-0 h-100 text-center"><a href="#"><img src="soap.png" alt="" class="card-img-top"></a> 
-                            <div class="card-body"> 
-                                <h5> <a href="#" class="text-dark">Toode 3</a></h5>
-                                <p class="text-muted card-text"> 9.99&#8364;</p> 
-                                <a role="button" href="#" class="btn btn-outline-dark">Vaata</a>
-                            </div> 
-                        </div> 
-                    </div> 
-                    <div class="col-md-4 mb-4"> 
-                        <div class="card shadow-sm border-0 h-100 text-center"><a href="#"><img src="soap.png" alt="" class="card-img-top"></a> 
-                            <div class="card-body"> 
-                                <h5> <a href="#" class="text-dark">Toode 4</a></h5>
-                                <p class="text-muted card-text"> 18.99&#8364;</p> 
-                                <a role="button" href="#" class="btn btn-outline-dark">Vaata</a>
-                            </div> 
-                        </div> 
-                    </div> 
-                    <div class="col-md-4 mb-4"> 
-                        <div class="card shadow-sm border-0 h-100 text-center"><a href="#"><img src="soap.png" alt="" class="card-img-top"></a> 
-                            <div class="card-body"> 
-                                <h5> <a href="#" class="text-dark">Toode 5</a></h5>
-                                <p class="text-muted card-text"> 1.99&#8364;</p> 
-                                <a role="button" href="#" class="btn btn-outline-dark">Vaata</a>
-                            </div> 
-                        </div> 
+                <div class="row">
+                    <div class="col-lg-6 d-flex align-items-start flex-column">
+                        <div class="mb-auto p-2"><h4>Ostukorvis on 1 toode</h4></div>    
+                        <div class="mb-auto p-2 row">
+                            <div class="col-lg-6">
+                                <img src="soap.png" width="100%">
+                            </div>
+                            <div class="col-lg-6">
+                                <p>15.99&#8364;</p>
+                                <p>Toode 1</p>
+                                    <select class="form-control col-lg-5 form-sm" id="kogus">
+                                        <option>0</option>
+                                        <option selected="selected">1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                    </select>
+                                <br/>
+                            </div>            
+                        </div>
+                        <div class="p-2">
+                            <p>Tarne: <span class="text-primary">tasuta</span></p>
+                            <p>Kokku: <span class="text-primary">15.99&#8364;</span></p>
+                        </div>
+                        <div class="p-2 mx-auto">
+                            <a href="kinnitus.html" class="btn btn-dark btn-lg mb-3">Maksa</a>
+                        </div>
                     </div>
-                    <div class="col-md-4 mb-4"> 
-                        <div class="card shadow-sm border-0 h-100 text-center"><a href="#"><img src="soap.png" alt="" class="card-img-top"></a> 
-                            <div class="card-body"> 
-                                <h5> <a href="#" class="text-dark">Toode 6</a></h5>
-                                <p class="text-muted card-text"> 5.99&#8364;</p> 
-                                <a role="button" href="#" class="btn btn-outline-dark">Vaata</a>
-                            </div> 
-                        </div> 
-                    </div> 
-                </div>
+                    <div class="col-lg-6">
+                        <div>
+                            <div class="mb-auto p-2">
+                                
+                                <form>
+                                    <h5 class="p-2">Sisesta kontaktandmed tellimuse koostamiseks:</h5>
+                                    <div>
+                                        <label for="name" class="col-lg-3">Nimi</label>
+                                        <input type="text" id="name" placeholder="Siseta nimi">
+                                    </div>
+                                    <div>
+                                        <label for="name" class="col-lg-3">Email</label>
+                                        <input type="text" id="email" placeholder="Siseta meiliaadress">
+                                    </div>
+                                    <div>
+                                        <label for="name" class="col-lg-3">Tel. number</label>
+                                        <input type="text" id="telNr" placeholder="Siseta telefoninumber">
+                                    </div>
+                                    <div>
+                                        <label for="name" class="col-lg-3">Aadress</label>
+                                        <input type="text" id="address" placeholder="Siseta aadress">
+                                    </div>
+                                    <div>
+                                        <h5 class="p-2">Vali tarneviis:</h5>
+                                        <input type="radio" id="dpdPakiautomaat" name="DPD_Pakiautomaat" value="pakiautomaat">
+                                        <label for="dpdPakiautomaat">DPD pakiautomaat</label>
+                                        <input type="radio" id="dpdKuller" name="DPD_Kuller" value="kuller">
+                                        <label for="dpdKuller">DPD kuller</label>
+                                    </div>
+                                    <div>
+                                        <h5 class="p-2">Vali makseviis:</h5>
+                                        <select class="form-control col-lg-6 form-sm" id="tarneviis">
+                                            <option>LHV pangalink</option>
+                                            <option>VISA/Mastercard</option> 
+                                        </select>
+                                    </div>
+                                </form>
+                                                        
+                                
+                            </div>
+                        </div>
+                    </div>           
+                </div>   
             </div>
-        </section>   
-        <!-- jalus --->
+        </section>
+        <!-- jalus -->
         <footer class="bg-light">
-            <div class=" container">
+            <div class="container">
                 <div class="row justify-content-end">
                     <div class="col">
-                        <div class="text-right" >
+                        <div class="text-right">
                             <p>meiemeil@mail.ee</p>
                             <p>Aadress: Maja 1, Tänav 2, Linn</p>
                         </div>
@@ -168,7 +169,7 @@
                             <a href="#"><img src="youtube-6-32.png" alt="" /></a>
                             <a href="#"><img src="pinterest-3-32.png" alt="" /></a>
                             <a href="#"><img src="facebook-3-32.png" alt="" /></a>
-
+            
                         </div>
                     </div>
                 </div>
@@ -179,5 +180,5 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
-  </body>
-</html>
+    </body>
+</html>         
